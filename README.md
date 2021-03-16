@@ -97,10 +97,10 @@ To initially access the database, you should run:
 
 You should run the following commands under psql to setup user access to Postgres and create the initial sparkifydb database:
 
-> CREATE ROLE student WITH ENCRYPTED PASSWORD 'student';
-> ALTER ROLE student WITH LOGIN;
-> ALTER ROLE student CREATEDB;
-> CREATE DATABASE sparkifydb OWNER student;
+> - CREATE ROLE student WITH ENCRYPTED PASSWORD 'student';
+> - ALTER ROLE student WITH LOGIN;
+> - ALTER ROLE student CREATEDB;
+> - CREATE DATABASE sparkifydb OWNER student;
 
 ## Running
 
