@@ -1,12 +1,10 @@
 # Project: Data Modeling with Postgres
-***
 
 A startup named Sparkify wants to analyze user activities using their song and user data. The current data is spread among several JSON files, making it hard to query and analyze.
 
 This project aims to create an ETL pipeline to load song and user data to a Postgres database, making it easier to query and analyze data.
 
 ## Datasets
-***
 
 Data is currently collected for song and user activities, in two directories: data/log_data and data/song_data, using JSON files.
 
@@ -53,7 +51,6 @@ Data is currently collected for song and user activities, in two directories: da
 >
 
 ## Schema
-***
 
 ### Fact table
  
@@ -72,7 +69,6 @@ artist_id, name, location, latitude, longitude
 start_time, hour, day, week, month, year, weekday  
 
 ## Build
-***
 
 ### Pre-requisites:
 
@@ -86,7 +82,6 @@ To install project python dependencies, you should run:
 > pipenv install
 
 ## Database
-***
 
 The database can be installed locally or ran using Docker, which is the preferred method.  
 
@@ -108,7 +103,6 @@ You should run the following commands under psql to setup user access to Postgre
 > CREATE DATABASE sparkifydb OWNER student;
 
 ## Running
-***
 
 To run the project locally, use pipenv to activate the virtual environment:
 
